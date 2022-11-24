@@ -25,6 +25,7 @@ public class Latihan {
             System.out.println("Masukkan Pilihan : ");
 
             while (scanner.hasNextInt()){
+
                 String[] hasilSplit = scanner.nextLine().split(" ");
 
                 int result = 0;
@@ -40,4 +41,3 @@ public class Latihan {
         }
     }
 }
-
