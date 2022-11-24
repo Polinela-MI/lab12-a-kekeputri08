@@ -3,10 +3,11 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 public class WritingOutput {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         writeOutput();
     }
-    public static void writeOutput(){
+
+    public static void writeOutput() {
         File file = new File("output.txt");
 
         try {
@@ -20,6 +21,4 @@ public class WritingOutput {
         }
 
     }
-
-
 }
